@@ -1,0 +1,170 @@
+/***** CSS CODE FOR PORTFOLIO, ARRANGED IN ALPHABETICAL ORDER *****/
+
+/***** ELEMENTS *****/
+
+a {
+  color: #DDC6EF;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  width: 1200px;
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #051B42;
+}
+
+footer {
+  color: white;
+  background-color: #051B42;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 50px;
+}
+
+h1 {
+  color: #DDC6EF;
+  font-family: 'Merriweather', serif;
+  font-size: 72px;
+  text-align: center;
+}
+
+h2 {
+  color: #B5D5FF;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  margin-left: 100px;
+}
+
+h3 {
+  color: #B5D5FF;
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  color: white;
+}
+
+header {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  height: 800px;
+  width: 1200px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #DDC6EF;
+  font-size: 30px;
+  padding-left: 40px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+p {
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+span:hover {
+  text-shadow: 1px 0px 0px #686868 , 0px 1px 0px #686868, -1px 0px 0px #686868,
+  0px -1px 0px #686868, 1px 4px 5px #ffffff;
+}
+
+/***** CLASSES *****/
+
+.about-text {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  overflow: auto;
+  width: 600px;
+  height: 400px;
+}
+
+.right {
+  text-align: right;
+}
+
+.third-width {
+  float: left;
+  overflow: auto;
+  width: 400px;
+}
+
+/***** IDS *****/
+
+#about {
+  background-image: url('../img/about-me.jpg');
+  background-size: cover;
+  box-sizing: border-box;
+  height: 500px;
+  overflow: auto;
+}
+
+#about h4 {
+  margin-left: 100px;
+}
+
+#about p {
+  margin-left: 100px;
+}
+
+#about img {
+  border: 10px solid white;
+  margin-left: 300px;
+}
+
+#contact {
+  background-color: #051B42;
+  color: white;
+  height: 400px;
+  padding-top: 150px;
+  overflow: auto;
+}
+
+#contact ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#portfolio {
+  background-color: #051B42;
+  box-sizing: border-box;
+  color: white;
+  height: 1300px;
+}
+
+#portfolio img {
+  box-sizing: border-box;
+  padding: 20px;
+}
